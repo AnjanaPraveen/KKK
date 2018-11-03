@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toobler</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="toobler.css">
+	
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light">
+	<a class="navbar-brand" href="#">
+		<img class="img-fluid" src="logo.svg" width="100" height="100" alt="">
+    </a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar nav d-flex justify-content-end" style="width:100%">
+		      <li class="nav-item">
+		        <a class="nav-link active" href="#">About</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link active" href="#">Work</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Services
+		        </a>
+		      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Mobile Application Development</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Web Application</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">User Experience Design</a>
+		     </div>
+		     </li>
+		     <li class="nav-item">
+		        <a class="nav-link" href="#">Blog</a>
+		     </li>
+		</ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Contact Us</button>
+		    </form>
+	    
+		</div>
+</nav>
+<section class="banner">
+	<div class="layout-container"> 
+	 <div class="banner-content">
+                    <h1 class="display-4">See How We Bring Your Ideas to Life</h1>
+                    <div class="row">
+                        <div class="layout-xs-12 layout-sm-4 col-sm-4">
+                            <div class="banner-web">
+                             <img class="picstyle" alt="" src="https://www.toobler.com/wp-content/themes/toobler-og/img/ic-web.svg">
+                                <h2 class="headstyle">Web</h2>
+                                <p class="parastyle">DevOps culture makes the web application development process, from ideation to
+                                    market, easy and reliable.</p>
+                                <button type="button" class="bt1">ADAPT</button>
+                            </div>
+                        </div>
+                        <div class="layout-xs-12 layout-sm-4 col-sm-4">
+                            <div class="banner-web">
+                            <img class="picstyle" alt="" src="https://www.toobler.com/wp-content/themes/toobler-og/img/ic-mob.svg">
+                                <h2 class="headstyle">Mobile</h2>
+                                <p class="parastyle">Native and Hybrid mobile application development for high-performance and
+                                    greater
+                                    business efficiency.</p>
+                                <button type="button" class="bt1">BUILT</button>
+                            </div>
+                        </div>
+                        <div class="layout-xs-12 layout-sm-4 col-sm-4">
+                            <div class="banner-web">
+                                <img class="picstyle" alt="" src="https://www.toobler.com/wp-content/themes/toobler-og/img/ic-iot.svg">
+                                <h2 class="headstyle">IoT</h2>
+                                <p class="parastyle">We love IoT so much that we built our own IoT application enablement platform
+                                    called
+                                    ThingSpine.</p>
+                                <button type="button" class="bt1">CONNECT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+         <button id="bt" class="btn icon-down-arrow banner-scroll-arrow" ></button>
+          </section>  
+<section class="subsection">
+	<div class="paragraphs">
+	  <div class="row">
+	    <div class="span4">
+	    	<figure id="fig">
+	      		<img class="image" src="pic.png"/>
+	      </figure>
+	    </div>
+	      <div class="content-heading">
+	      	<h3 id="heading">Develop More and Faster with the Right Resources</h3>
+	      <p class="subpara">We have incorporated the DevOps culture in all our services - web application development, web designing services, mobile application development, IoT services - which helps us to develop more and faster with the right resources. We are able to optimise the software development life cycle in a whole new way. Our agile development team works hand-in-hand with the operations team to ensure continuous integration and continuous delivery with maximum speed and functionality for faster release and deployment cycles.</p>
+	    </div>
+	  </div>
+	</div>
+</section>
+<section class="logos">
+	<div class="layout-container">
+	<div class="row">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  	<div class="carousel-inner">
+    <div class="carousel-item active">
+    	<div class="row justify-content-md-center">
+    		<div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="php.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		    <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="Andriod.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		     <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="angularjs.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		    <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="Cordova.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		     <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="NodeJS.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		     <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="python.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		       
+      	</div>
+      </div>
+      <div class="carousel-item">
+     	<div class="row justify-content-md-center">
+     		<div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="python.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		    <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="ReactJS.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		     <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="ionic.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		    <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="ReactNative.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		     <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="apple.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		     <div class="item" style="width: 200px">
+    			<div class="layout-xs-4 layout-sm-3 layout-md-2 logo-item">
+                            <figure>
+                            	<img class="d-block w-30" src="ROR.png" alt="First slide">
+                            </figure>
+                        </div>
+		    </div>
+		</div>
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+</section>
+<section class="industries">
+	<div class="layout-container">
+		<div class="layout-wrapper">
+			<h2 class="indus">Industries</h2>
+				<div class="media">
+				<div class="l1">
+                        <div class="f">
+                  
+                            <img class="align-self-center mr-3 mx-auto" src="finance.png">
+                            
+                        </div>
+                    </div>
+             
+         
+                 <div class="l1">
+                        <div class="f">
+                  
+                            <img class="align-self-center mr-3 mx-auto" src="retail.png">
+                            
+                        </div>
+                    </div>
+                     
+          
+                <div class="l1">
+                        <div class="f">
+                  
+                            <img class="align-self-center mr-3 mx-auto" src="travel.png">
+                            
+                        </div>
+                    </div>
+                
+            
+                <div class="l1">
+                        <div class="f">
+                  
+                            <img class="align-self-center mr-3 mx-auto" src="cpg.png">
+                            
+                        </div>
+                    </div>
+                      
+             </div>              
+		</div>
+	</div>
+</section>
+
+	<section class="industries1">
+		<div class="layout-container">
+		<div class="layout-wrapper">
+		<h2 class="indus">Customer Success Stories</h2>
+		<div class="media">
+		<div class="card-deck">
+		  <div class="card">
+		    <img class="card-img-top" src="shop.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">ShopboxUK</h5>
+		      <p class="card-text">Price comparison app for endless shopping</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" src="site.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">GoSite</h5>
+		      <p class="card-text">Web platform for business to evolve online</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" src="hotel.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">The Hotel</h5>
+		      <p class="card-text">Redefining digital concierge-Hospitality App</p>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="btn-group dropright">
+  <button type="button" id="b" class="btn btn-secondary">
+    Read More Stories
+  </button>
+  </div>
+</div>
+</div>
+</section>
+	<section class="section-testimonial">
+        <div class="layout-container">
+            <div class="layout-lg-12">
+                <div class="testimonial-content">
+                    <div class="head-group">
+                        <h2 class="indus" style="text-align: center;">Testimonials</h2>
+                    </div>
+	    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <div class="testimonial-info">
+                <p class="test">My experiences with the Toobler folks has been stellar. Their
+                   programming has been solid and their designs have been exceptional - a rare commodity in the outsourcing world. Without any hesitation - I will continue to use Toobler on all my projects. </p>
+      
+           </div>
+       </div>
+	    <div class="carousel-item">
+	      <div class="testimonial-info">
+                <p class="test">Working with Toobler was easy for me. Their staff were always online when I needed to discuss something and they were professional and pleasant in their manner. They were also very knowledgeable and always had a good grasp on what was needed. This is a good company to have in your address book.</p>
+      
+           </div>
+	    </div>
+	    <div class="carousel-item">
+	      <div class="testimonial-info">
+                <p class="test">I believe that Toobler provided me the highest level of communication & coding during my product development. The world has greatly benefited from hands of their innovative team!</p>
+      
+           </div>
+	    </div>
+	    <div class="carousel-item">
+	      <div class="testimonial-info">
+                <p class="test">The guys at Toobler were very involved from the very first minute they started working on my project. Their commitment, knowledge and dedication helped me wrap it up in a spectacular fashion and needless to say, the result was a huge success.</p>
+      
+           </div>
+	    </div>
+	    </div>
+	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	   </div>
+	    <div class="card-deck">
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-75" src="w.png" alt="Generic placeholder image">
+			  	</figure>
+			  <div class="media-body">
+			    <h5 class="mt-0">William Will Lopez</h5>
+			    <p>Founder of AdvisorFi</p>
+				  </div>
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-75" src="d.png" alt="Generic placeholder image">
+				</figure>
+			  <div class="media-body">
+			    <h5 class="mt-0">Declan McNeela</h5>
+			    <p>Director, Feeba.me</p>
+				  </div>
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-75" src="l.png" alt="Generic placeholder image">
+				</figure>
+			  <div class="media-body">
+			    <h5 class="mt-0">Lee Barrett</h5>
+			    <p>Founder, Shopbox UK</p>
+				  </div>
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-75" src="m.png" alt="Generic placeholder image">
+			</figure>
+			  <div class="media-body">
+			    <h5 class="mt-0">Mark Ilott</h5>
+			    <p>HummingBlue</p>
+				  </div>
+				</div>
+		  </div>
+		</div>
+		</div>
+	</div> 
+	</div>
+	</div>
+	</div>
+	</section>              
+
+
+<section class="industries1">
+		<div class="layout-container">
+		<div class="layout-wrapper">
+		<h2 class="indus">Be Inspired</h2>
+		<div class="media">
+		<div class="card-deck">
+			<div class="try">
+		  <div class="card">
+		    <img class="card-img-top" src="card.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">How to get a Node.js application into a Docker container?</h5>
+
+		      <p class="card-text"><small class="text-muted"><span class="author">By<i>Jose Gonsalo</i></span></small></p>
+		   
+		      <p class="card-text">container technology that Docker looks built upon has been in the tech ecosystem since 2008. However, the sudden hype of Docker seems awaken from some clueless land of technologies.</p>
+		    </div>
+		  </div>
+		</div>
+		<div class="try">
+		  <div class="card">
+		    <img class="card-img-top" src="card1.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">ZAP Penetration Testing: A simple Tutorial to Detect Vulnerabilities</h5>
+				 <p class="card-text"><small class="text-muted"><span class="author">By <i>Geethu Alexander</i></span></small></p>
+		      <p class="card-text">Penetration testing (otherwise known as pen testing, or the more general security testing) is the process 
+                                of testing your applications for vulnerabilities,</p>
+		    </div>
+		  </div>
+		  </div>
+		  <div class="try">
+		  <div class="card">
+		    <img class="card-img-top" src="card3.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">How Google Maps helps developers to predict travel time using a new API?</h5>
+		      <p class="card-text"><small class="text-muted"><span class="author">By <i>Jose Gonsalo</i></span></small></p>
+		      <p class="card-text">Google, a plethora of technologies, is really inventing some future-driven outputs that truly happen to make every internet user’s life better.</p>
+		    </div>
+		  </div>
+		  </div>
+		</div>
+	</div>
+	<div class="btn-group dropright">
+  <button type="button" id="b" class="btn btn-secondary">
+    Read More Blogs
+  </button>
+  </div>
+</div>
+</div>
+</section>
+<section class="client-logos-section">
+	<div class="layout-container">
+		<div class="logos-wrapper">
+			
+			<div class="layout-wrapper">
+				
+				<div class="card-deck">
+				  <div class="card">
+				    <div class="media">
+				    	<figure class="testi">
+					  <img class="align-self-center mr-3 h-50" src="shopbox.png" alt="Generic placeholder image">
+					  	</figure>
+				
+						</div>
+				  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-50" src="blacktri.png" alt="Generic placeholder image">
+				</figure>
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-50" src="bluestacks.png" alt="Generic placeholder image">
+				</figure>
+			 
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-50" src="hummingblue.png" alt="Generic placeholder image">
+			</figure>
+			  
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-50" src="permit-puller.png" alt="Generic placeholder image">
+			</figure>
+			  
+				</div>
+		  </div>
+		  <div class="card">
+		    <div class="media">
+		    	<figure class="testi">
+			  <img class="align-self-center mr-3 h-50" src="yacket.png" alt="Generic placeholder image">
+			</figure>
+			  
+				</div>
+		  </div>
+		</div>	
+		
+		
+		</div>
+
+	</div>
+	<div class="separator"></div>
+</div>
+	
+</section>
+
+
+<section class="container-fluid" style="padding: 50px 50px 50px 50px; overflow: hidden;">
+			<div class="row">
+				
+			</div>
+			<div class="row" id="row1">
+				<div class="col-sm-4">
+					<div class="media">
+						<img src="logo.svg" style="height: 30px;">
+					</div>
+					<div class="r1" style="margin-top: 20px;">
+						<h6 class="font-weight-bold text-secondary" id="toobler">Toobler Technologies Pvt. Ltd.</h6>
+						<p class="text-secondary" style="margin-bottom: 0;">1st Floor, Lulu Cyber Tower-1<br>Infopark, Kakkanad, 682042</p>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<h6 class="font-weight-bold text-info" style="margin-top: 15px">COMPANY</h6>
+					<div class="r1" style="margin-top: 20px;">
+						<p class="text-secondary" style="margin-top: 10px;">
+							<a href="" class="text-secondary">About</a><br>
+							<a href="" class="text-secondary">Vision</a><br>
+							<a href="" class="text-secondary">Values</a><br>
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4" id="row1">
+					<h6 class="font-weight-bold text-info" style="margin-top: 15px">SERVICES</h6>
+					<div class="r1" style="margin-top: 20px;">
+						<p class="text-secondary" style="margin-top: 10px;">
+							<a href="" class="text-secondary">Mobile Application Development</a><br>
+							<a href="" class="text-secondary">Web Application Development</a><br>
+							<a href="" class="text-secondary">User Experience Design</a><br>
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<h6 class="font-weight-bold text-info" style="margin-top: 15px">QUICK LINKS</h6>
+					<div class="r1" style="margin-top: 20px;">
+						<p class="text-secondary" style="margin-top: 10px;">
+							<a href="" class="text-secondary">Work</a><br>
+							<a href="" class="text-secondary">Blog</a><br>
+							<a href="" class="text-secondary">Testimonials</a><br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<section>
+<div class="slider demo">
+
+	<div><img class="d-block w-30" src="NodeJS.png" alt="First slide"></div>
+
+	<div> <img class="d-block w-30" src="NodeJS.png" alt="First slide"></div>
+
+	<div> <img class="d-block w-30" src="NodeJS.png" alt="First slide"></div>
+
+
+</div>
+</section>
+
+
+</body>
+</html>
+
+
+                           
+                               
+                            
+              

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script src="source.js"></script>
+	<style type="text/css">
+		#container{
+			width: 400px;
+			height: 550px;
+		}
+		#d1{
+			display: inline;
+			white-space: nowrap;
+			width:200px;
+			height:200px;
+			overflow: scroll;
+			
+		}
+
+		.cc{
+			height: 300px;
+			width: 300px;
+			display: inline-block;
+			
+
+		}
+		#t{
+			display: inline-block;
+			white-space: nowrap;
+			width:200px;
+			height:200px;
+			
+		}
+
+		#list{
+			height: 100px;
+			width: 50px;
+			display: inline-block;
+			white-space: nowrap;
+
+		}
+
+		
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<div id="d1"></div>
+		<div id="t">
+			<div>
+			<ul id="list"></ul>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	var k=d.data;
+	var m=k.dates;
+	var i;
+	k.dates.forEach(function(dates,index){
+		//console.log(index,dates.date);
+		var str =' <div class="cc" index="'+index+'">'+moment(dates.date).format("DD/MM/YY : HH mm a")+'<div></div></div>'
+		$("#d1").append(str);
+	});
+	$(".cc").click(function(){
+				var h=$(this);
+				var index=h.attr("index");
+				var sl=d.data.dates[index].slots;
+				var str1;
+				var list = h.children("div");
+				list.html("");
+				sl.forEach(function(slot,index){
+				
+				str1 = '<li>'+moment(slot.time_start, "HH:mm").format("hh:mm a")+'-'+moment(slot.time_end, "HH:mm").format("hh:mm a")+'</li>';
+				list.append(str1);	
+			});
+			list.toggle();
+			
+		});
+
+			$(".cc div").on('click', 'li', function(){
+			alert($(this).html());
+		});
+
+
+
+	
+
+</script>
+</html>

@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intermediate</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css"/>
+   <script src="slick-master/slick/slick.js"></script>
+    <style type="text/css">
+
+    html{
+      overflow-x: hidden;
+      width: 100%;
+    }
+      .banner{
+      background-color: #2483cf;
+      margin-top: 70px;
+      min-height: 480px;
+      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative; 
+      
+
+   }
+   h1{
+      color: rgb(255, 255, 255);
+      border-radius: border-box;
+      clear: both;
+      display: block;
+      font-family: "Montserrat", sans-serif;
+      font-size: 46px;
+      font-weight: 500;
+      line-height: 58px;
+      margin-top:20px;
+      width: 32rem;
+      margin: auto;
+      text-align: center;
+
+   }
+ 
+   .card{
+    background-color:  #2483cf;
+    box-sizing: border-box;
+    border: none;
+    color: rgb(64, 64, 64);
+    float: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: center;
+    width:389.983px;
+  }
+   }
+
+   .card-body{
+    box-sizing: border-box;
+    color: rgb(64, 64, 64);
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    text-align: center;
+   }
+
+   .card-img-top{
+    align-content: center;
+     border-color: rgb(64, 64, 64);
+     border-width: 0px;
+     border-style: none;
+      box-sizing: border-box;
+      color: rgb(64, 64, 64);
+      display: block;
+      font-family: sans-serif;
+      font-size: 16px;
+      height: 45px;
+      line-height: 24px;
+      margin:auto;
+      text-align: center;
+        }
+
+      .card-text{
+
+    box-sizing: border-box;
+    color: #eff4f8;
+    display: block;
+    font-family: "Droid Serif", serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    min-height: 0px;
+    text-align: center;
+      }
+
+     
+    .card-title{
+      box-sizing: border-box;
+      clear: both;
+      color: rgb(255, 255, 255);
+      display: block;
+      font-family: "Montserrat", sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 42px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 10px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .card-deck{
+      margin-top: 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+
+    }
+    #heading{
+      color: rgb(64, 64, 64);
+      display: block;
+      font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 20px;
+      text-align: center;
+    }
+   
+    .subpara{
+      font-family: "Droid Serif", serif;
+      font-size: 17px;
+      line-height: 34px;
+      text-align: left;
+      color: rgb(96, 102, 106);
+      margin-right: 20px;
+      width: 100%;
+    }
+    .industries{
+
+      margin-top: 40px;
+    }
+    .row{
+      margin-top: 30px;
+    }
+
+    h2{
+      color: rgb(64, 64, 64);
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+
+    }
+    #row1{
+      box-sizing: border-box;
+      color: rgb(64, 64, 64);
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+
+    #card1{
+      box-sizing: border-box;
+color: rgb(64, 64, 64);
+font-family: sans-serif;
+font-size: 16px;
+line-height: 24px;
+margin-left: -8px;
+margin-right: -8px;
+    }
+    .customer{
+      padding-bottom: 50px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 50px;
+      box-sizing: border-box;
+      color: rgb(64, 64, 64);
+      display: block;
+          }
+
+
+     #more-client-btn{
+      background-color: #16b0dc;
+      border:none;
+    display: none;
+    position: absolute;
+      top: 35%;
+      left: 50%;
+      height: 2.5rem;
+      width: 120px;
+      margin-left: -60px !important;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 0px rgba(10,10,10,0.38);
+  }
+
+  @media screen and (max-width: 576px){
+    h1{
+      margin: 0 !important;
+      width: 100%;
+    }
+    .card{
+      width: 100%;
+    }
+    #r1 .col-sm-2{
+      margin-bottom: 50px;
+    }
+  }
+         
+
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img class="img-fluid" src="logo.svg" width="100" height="100" alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar nav d-flex justify-content-end" style="width:100%">
+          <li class="nav-item">
+            <a class="nav-link active"  style="color: #4e5158; font-family: "Montserrat", sans-serif;" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #4e5158; font-family: "Montserrat", sans-serif;" href="#">Work</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #4e5158; font-family: "Montserrat", sans-serif;">
+              Services
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Mobile Application Development</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Web Application</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">User Experience Design</a>
+         </div>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" style="color: #4e5158; font-family: "Montserrat", sans-serif;" href="#">Blog</a>
+         </li>
+    </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" style="border-top-right-radius:50%;
+            border-top-left-radius:50%; border-bottom-right-radius:50%; border-bottom-left-radius:50%;background-color: #16b0dc; color: #ffffff" type="submit">Contact Us</button>
+        </form>
+      
+    </div>
+</nav>
+
+<section class="banner">
+  <h1>See How We Bring Your Ideas to Life</h1>
+<div class="media">
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="ic-web.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Web</h5>
+      <p class="card-text">DevOps culture makes the web application development process, from ideation to market, easy and reliable.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://www.toobler.com/wp-content/themes/toobler-og/img/ic-mob.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Mobile</h5>
+      <p class="card-text">Native and Hybrid mobile application development for high-performance and greater business efficiency.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://www.toobler.com/wp-content/themes/toobler-og/img/ic-iot.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">IoT</h5>
+      <p class="card-text">We love IoT so much that we built our own IoT application enablement platform called ThingSpine.</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="subsection">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg">
+        
+          <div class="media w-100" >
+            <img class="image w-100" src="pic.png"/>
+          </div>
+       
+      </div>
+      <div class="col-lg">
+        <div class="content-heading">
+          <h3 id="heading">Develop More and Faster with the Right Resources</h3>
+        <p class="subpara">We have incorporated the DevOps culture in all our services - web application development, web designing services, mobile application development, IoT services - which helps us to develop more and faster with the right resources. We are able to optimise the software development life cycle in a whole new way. Our agile development team works hand-in-hand with the operations team to ensure continuous integration and continuous delivery with maximum speed and functionality for faster release and deployment cycles.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="container-fluid" style="margin-top: 10px;">
+    <div class="slick-slider" >
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="Andriod.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="angularjs.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="Cordova.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="NodeJS.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="php.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="python.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="ReactJS.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="ionic.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="apple.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="ReactNative.png">
+          </div>
+        </div>
+        <div class="slick-item col-sm-12">
+          <div class="media">
+            <img class="mx-auto" src="ROR.png">
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+
+<section class="industries">
+  <div>
+  <h2>Industries</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-3">
+        <div class="media mx-auto">
+        <img class="w-100" src="finance.png">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="media mx-auto">
+        <img class="w-100" src="retail.png">
+      </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="media mx-auto">
+        <img class="w-100" src="travel.png">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="media mx-auto">
+        <img class="w-100" src="cpg.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="customer" style="background-color:rgb(250, 250, 250); margin-top: 40px;">
+    <div>
+    <h2 class="indus">Customer Success Stories</h2>
+    </div>
+    <div id="row1" class="row">
+    <div id="card1" class="card-deck">
+      <div class="col-sm-4">
+        <div class="media mx-auto">
+      <div class="card" style="background-color: white;">
+        <img class="card-img-top" src="shop.jpg" alt="Card image cap" style="max-width: 100%;
+          min-height: 200px;
+          min-width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="box-sizing: border-box;
+            color: #303437;font-family: 'Montserrat', sans-serif; font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align:left;">ShopboxUK</h5>
+          <p class="card-text" style="color: rgb(97, 102, 106);
+          cursor: pointer;
+          font-family: 'Droid Serif', serif;
+          font-size: 14px; text-align:left;">Price comparison app for endless shopping</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media mx-auto">
+      <div class="card" style="background-color: white;">
+        <img class="card-img-top" src="site.jpg" alt="Card image cap" style="max-width: 100%;
+        min-height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title" style="box-sizing: border-box;
+            color: #303437;font-family: 'Montserrat', sans-serif; font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align:left;">
+            GoSite</h5>
+          <p class="card-text" style="color: rgb(97, 102, 106);
+          cursor: pointer;
+          font-family: 'Droid Serif', serif;
+          font-size: 14px; text-align:left;">Web platform for business to evolve online</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media mx-auto">
+      <div class="card" style="background-color: white;">
+        <img class="card-img-top" src="hotel.jpg" alt="Card image cap" style="max-width: 100%;
+          min-height: 200px;
+          min-width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="box-sizing: border-box;
+            color: #303437;font-family: 'Montserrat', sans-serif; font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align:left;">The Hotel</h5>
+          <p class="card-text" style="color: rgb(97, 102, 106);
+          cursor: pointer;
+          font-family: 'Droid Serif', serif;
+          font-size: 14px; text-align:left;">Redefining digital concierge-Hospitality App</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="btn-group dropright">
+  <button type="button" id="b" class="btn btn-secondary" style="text-align: center; width: 190px; background-color: rgb(255, 255, 255); border-color:rgb(22, 176, 220); margin-right: 50px; margin-bottom: 30px;
+    margin-left: 490px;
+    margin-right: 500px;
+    margin-top: 38px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-top: 8px;" >
+    <div style="color: #32b2dc; font-family: 'Montserrat', sans-serif">
+    Read More Stories
+    </div>
+  </button>
+  
+</div>
+</section>
+
+<section class="container-fluid">
+      <h6 class="text-center font-weight-bold" style="color: rgb(48, 51, 54);
+font-family: 'Montserrat', sans-serif;
+font-size: 36px; margin-top: 30px;">Testimonials</h>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" position:"static">
+        <div class="carousel-item active" style="min-height: 8rem;">
+          <div class="row"><div class="col-8 mx-auto text-center font-italic">
+            <p style="color: rgb(48, 51, 54);
+font-family: 'Droid Serif', serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 32px";>My experiences with the Toobler folks has been stellar. Their programming has been solid and their designs have been exceptional - a rare commodity in the outsourcing world. Without any hesitation - I will continue to use Toobler on my projects. </p>
+          </div></div>
+        </div>
+        <div class="carousel-item" style="min-height: 8rem">
+          <div class="row"><div class="col-8 mx-auto text-center font-italic">
+            <p style="color: rgb(48, 51, 54);
+font-family: 'Droid Serif', serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 32px;">Working with Toobler was easy for me. Their staff were always online when I needed to discuss something and they were professional and pleasant in their manner. They were also very knowledgeable and always had a good grasp on what was needed. This is a good company to have in your address book.</p>
+          </div></div>
+        </div>
+        <div class="carousel-item" style="min-height: 8rem">
+          <div class="row"><div class="col-8 mx-auto text-center font-italic">
+            <p style="color: rgb(48, 51, 54);
+font-family: 'Droid Serif', serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 32px;">I believe that Toobler provided me the highest level of communication & coding during my product development. The world has greatly benefited from hands of their innovative team! </p>
+          </div></div>
+        </div>
+        <div class="carousel-item" style="min-height: 8rem">
+          <div class="row"><div class="col-8 mx-auto text-center font-italic">
+            <p style="color: rgb(48, 51, 54);
+font-family: 'Droid Serif', serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 32px;">The guys at Toobler were very involved from the very first minute they started working on my project. Their commitment, knowledge and dedication helped me wrap it up in a spectacular fashion and needless to say, the result was a huge success.</p>
+          </div></div>
+        </div>
+
+        <a class="carousel-control-prev c-btn bg-light shadow-sm" href="#testimonial-carousel" role="button" data-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true">&lsaquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next c-btn bg-light shadow-sm" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">&rsaquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+    
+        <div class="card-deck carousel-indicators hidden-md-down" style="margin:0 100px 0 100px; position: static;">
+          <div data-target="#testimonial-carousel" data-slide-to="0" class="card active" style="background-color: #ffffff; position: static;"> 
+            <div class="card-body" style="padding: 0.5rem; background-color: #ffffff">
+              <div class="media">
+                <img src="w.png" style="width: 3rem; border-radius: 50%;">
+                <div class="media-body ml-1">
+                  <h6 style="font-size: 1rem;" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;">William Will Lopez</h6>
+                  <small class="text-muted" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Droid Serif', serif;
+font-size: 14px;">Founder of AdvisorFi</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-target="#testimonial-carousel" data-slide-to="1" class="card" style="background-color: #ffffff">
+            <div class="card-body" style="padding: 0.5rem; background-color: #ffffff">
+              <div class="media">
+                <img src="d.png" style="width: 3rem; border-radius: 50%;">
+                <div class="media-body ml-1">
+                  <h6 style="font-size: 1rem;" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;">Declan McNeela</h6>
+                  <small class="text-muted" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Droid Serif', serif;
+font-size: 14px;">Director, Feeba.me</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-target="#testimonial-carousel" data-slide-to="2" style="background-color: #ffffff">
+            <div class="card-body" style="padding: 0.5rem; background-color: #ffffff ">
+              <div class="media">
+                <img src="l.png" style="width: 3rem; border-radius: 50%;">
+                <div class="media-body ml-1">
+                  <h6 style="font-size: 1rem;" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;">Lee Barrett</h6>
+                  <small class="text-muted" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Droid Serif', serif;
+font-size: 14px;">Founder, shopbox UK</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-target="#testimonial-carousel" data-slide-to="3" style="background-color: #ffffff">
+            <div class="card-body" style="padding: 0.5rem; background-color: #ffffff">
+              <div class="media">
+                <img src="m.png" style="width: 3rem; border-radius: 50%;">
+                <div class="media-body ml-1">
+                  <h6 style="font-size: 1rem;" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;">Mark Ilot</h6>
+                  <small class="text-muted" style="color: rgb(96, 102, 106);
+cursor: pointer;
+font-family: 'Droid Serif', serif;
+font-size: 14px;">HummingBlue</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="customer" style="background-color:rgb(250, 250, 250); margin-top: 40px;">
+    <div>
+    <h2 class="indus">Be Inspired</h2>
+    </div>
+    <div id="row1" class="row">
+    <div id="card1" class="card-deck">
+      <div class="col-sm-4">
+        <div class="media mx-auto">
+      <div class="card" style="background-color: white;">
+        <img class="card-img-top" src="card.jpg" alt="Card image cap" style="max-width: 100%;
+          min-height: 200px;
+          min-width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="box-sizing: border-box;
+            color: #303437;font-family: 'Montserrat', sans-serif; font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align:left;">How to get a Node.js application into a Docker container?</h5>
+            <p class="card-text"><small class="text-muted"><span class="author">By<i>Jose Gonsalo</i></span></small></p>
+          <p class="card-text" style="color: rgb(97, 102, 106);
+          cursor: pointer;
+          font-family: 'Droid Serif', serif;
+          font-size: 14px; text-align:left;">container technology that Docker looks built upon has been in the tech ecosystem since 2008. However, the sudden hype of Docker seems awaken from some </p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media mx-auto">
+      <div class="card" style="background-color: white;">
+        <img class="card-img-top" src="card1.jpg"" alt="Card image cap" style="max-width: 100%;
+        min-height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title" style="box-sizing: border-box;
+            color: #303437;font-family: 'Montserrat', sans-serif; font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align:left;">
+            ZAP Penetration Testing: A simple Tutorial to Detect Vulnerabilities</h5>
+            <p class="card-text"><small class="text-muted"><span class="author">By <i>Geethu Alexander</i></span></small></p>
+          <p class="card-text" style="color: rgb(97, 102, 106);
+          cursor: pointer;
+          font-family: 'Droid Serif', serif;
+          font-size: 14px; text-align:left;">Penetration testing (otherwise known as pen testing, or the more general security testing) is the process 
+                                of testing your applications for vulnerabilities,</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="media mx-auto">
+      <div class="card" style="background-color: white;">
+        <img class="card-img-top" src="card3.jpg" alt="Card image cap" style="max-width: 100%;
+          min-height: 200px;
+          min-width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="box-sizing: border-box;
+            color: #303437;font-family: 'Montserrat', sans-serif; font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align:left;">How Google Maps helps developers to predict travel time using a new API?</h5>
+             <p class="card-text"><small class="text-muted"><span class="author">By <i>Jose Gonsalo</i></span></small></p>
+          <p class="card-text" style="color: rgb(97, 102, 106); text-align: left;
+          cursor: pointer;
+          font-family: 'Droid Serif', serif;
+          font-size: 14px; text-align:left;">Google, a plethora of technologies, is really inventing some future-driven outputs that truly happen to make every internet user’s life better.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="btn-group dropright">
+  <button type="button" id="b" class="btn btn-secondary" style="text-align: center; width: 190px; background-color: rgb(255, 255, 255); border-color:rgb(22, 176, 220); margin-right: 50px; margin-bottom: 30px;
+    margin-left: 490px;
+    margin-right: 500px;
+    margin-top: 38px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-top: 8px;" >
+    <div style="color: #32b2dc; font-family: 'Montserrat', sans-serif">
+    Read More Blogs
+    </div>
+  </button>
+  
+</div>
+</section>
+
+<section class="client-logos-section">
+  <div id="image-row-container" style="position: relative">
+      <button type="button" id="more-client-btn" class="btn btn-primary px-auto">More Clients</button>
+    <div id="r1" class="row">
+      <div class="col-sm-2">
+        <div class="media">
+          <img class="mx-auto" src="shopbox.png">
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="media">
+          <img class="mx-auto" src="blacktri.png">
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="media">
+          <img class="mx-auto" src="bluestacks.png">
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="media">
+          <img class="mx-auto" src="hummingblue.png">
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="media">
+          <img class="mx-auto" src="permit-puller.png">
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="media">
+          <img class="mx-auto" src="yacket.png">
+        </div>
+      </div>   
+    
+    </div>
+
+  
+  <div class="separator" style="color: #ebebeb; border-bottom-style: solid;
+border-bottom-width: 1px; padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 0px; margin-top: 20px; width: 50%; margin-left: 250px;"></div>
+
+ </div> 
+</section>
+
+
+<section class="container-fluid" style="padding: 50px 50px 50px 50px; overflow: hidden;">
+      <div class="row">
+        
+      </div>
+      <div class="row" id="row1">
+        <div class="col-sm-4">
+          <div class="media">
+            <img src="logo.svg" style="height: 30px;">
+          </div>
+          <div class="r1" style="margin-top: 20px;">
+            <h6 class="font-weight-bold text-secondary" id="toobler">Toobler Technologies Pvt. Ltd.</h6>
+            <p class="text-secondary" style="margin-bottom: 0;">1st Floor, Lulu Cyber Tower-1<br>Infopark, Kakkanad, 682042</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h6 class="font-weight-bold text-info" style="margin-top: 15px">COMPANY</h6>
+          <div class="r1" style="margin-top: 20px;">
+            <p class="text-secondary" style="margin-top: 10px;">
+              <a href="" class="text-secondary">About</a><br>
+              <a href="" class="text-secondary">Vision</a><br>
+              <a href="" class="text-secondary">Values</a><br>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4" id="row1">
+          <h6 class="font-weight-bold text-info" style="margin-top: 15px">SERVICES</h6>
+          <div class="r1" style="margin-top: 20px;">
+            <p class="text-secondary" style="margin-top: 10px;">
+              <a href="" class="text-secondary">Mobile Application Development</a><br>
+              <a href="" class="text-secondary">Web Application Development</a><br>
+              <a href="" class="text-secondary">User Experience Design</a><br>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h6 class="font-weight-bold text-info" style="margin-top: 15px">QUICK LINKS</h6>
+          <div class="r1" style="margin-top: 20px;">
+            <p class="text-secondary" style="margin-top: 10px;">
+              <a href="" class="text-secondary">Work</a><br>
+              <a href="" class="text-secondary">Blog</a><br>
+              <a href="" class="text-secondary">Testimonials</a><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+<script type="text/javascript">
+      $(document).ready(function(){
+        $('.slick-slider').slick({
+          accessibility: true,
+          adaptiveHeight: false,
+          autoplay: true,
+          slidesToShow: 6,
+          arrows: false,
+          pauseOnHover: false,
+          variableWidth: false,
+          responsive: [
+              {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true
+                }
+              }]
+        })
+      });
+
+
+      $('#image-row-container').mouseover(function(){
+        console.log($(window).width())
+        if($(window).width()>576){
+          $("#r1").css("filter", "blur(5px)");
+          $("#more-client-btn").css("display", "flex");
+        }
+      })
+      $('#image-row-container').mouseout(function(){
+        if($(window).width()>576){
+          $("#r1").css("filter", "blur(0px)");
+          $("#more-client-btn").css("display", "none");
+        }
+      })
+</script>
+</html>
+
+
+
