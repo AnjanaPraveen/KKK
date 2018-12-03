@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <script type='text/javascript', src='http://code.jquery.com/jquery-1.9.1.js', charset='UTF-8'></script>
+    <style>
+        #details{
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #details td, #details th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #details tr:nth-child(even){background-color: #f2f2f2;}
+
+        #details tr:hover {background-color: #ddd;}
+
+        #details th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: 	white;
+        }
+    </style>
+
+</head>
+<body>
+            <div>
+                <form action = "/add" method="POST">
+                  <table id="details">
+                      <tr style= "color:  #696969; align-content:center">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Country</th>
+                      </tr>
+                      <tr>
+                        <td>#{firstname}</td>
+                        <td>#{lastname}</td>
+                        <td>#{country}</td>
+                      </tr>
+                    </table>
+                  </form>
+              </div>
+</body>
+</html>
